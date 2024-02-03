@@ -1,3 +1,10 @@
+@font-face {
+    font-family: 'Protest'; /* Use a custom name to reference your font */
+    src: url('../public/ProtestRiot-Regular.ttf') format('truetype'); /* Path to your .ttf font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
 #logo {
     width: 300px;
 
@@ -6,7 +13,6 @@
 #subtext {
     font-size: 32px;
     color: white;
-    font-weight: 900;
     font-family: 'Protest', sans-serif;
     text-align: center;
 }
