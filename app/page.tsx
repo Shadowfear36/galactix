@@ -1,5 +1,5 @@
 import Starfield from 'react-starfield';
-import Logo from '../public/logo.png';
+import Logo from '../public/logo4.png';
 import './landing.css';
 
 export default function Home() {
