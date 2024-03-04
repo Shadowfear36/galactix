@@ -8,8 +8,8 @@ import "./about.css";
 import cardImg from "../../public/sol_superstars.png";
 
 function About() {
-    const aboutText = "Only Up: A community built on collaboration and support, rallying around the tagline \"If everyone moves in one direction, there's no stopping us.\" Our strength lies in collective effort, working together towards shared goals and milestones. Meme tokens are in a frenzy this 2024 season in crypto. Which is exciting, but there’s problems below the surface. Getting hacked, being rugged, not receiving your presale, presale dumpers etc. the list goes on & on. On top of that there’s projects launching every single day. Through our combined efforts in the ecosystem we can keep Solana a safe place. Only Up is sculpting and creating a hub that can help keep you protected during the 2024 bull run.";
-    const btnLink = 'https://docs.google.com/document/d/1OhRfRpByNKDLVQu17syf7EfZ4Xdjp5Y2nqXlK5A7UTk/edit?usp=sharing'
+    const aboutText = "Galactix is a unique NFT collection aimed at revolutionizing the digital art and collectibles space by offering a blend of exclusive access and utility within a futuristic theme. With a limited supply of 3333 NFTs, Galactix is designed to cater to a community of passionate collectors and enthusiasts who appreciate both aesthetic appeal and functional value.";
+    const btnLink = 'https://docs.google.com/document/d/1hevZSWeRvtAU18uLoG005gwuCCefCiIbJ0i9j8gUhjc/edit#heading=h.2gazcsgmxkub'
   return (
     <div className="flex flex-col abt-container"> 
     <Starfield
