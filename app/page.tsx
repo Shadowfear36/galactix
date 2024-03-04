@@ -1,3 +1,4 @@
+'use client'
 import Starfield from 'react-starfield';
 import Header from './_components/header';
 import './landing.css';
@@ -7,6 +8,8 @@ import landingGif from '../public/landing.gif';
 import upMemeGif from '../public/upMeme.gif';
 import solSuperstar from '../public/sol_superstars.png';
 import Widget from './_components/widget';
+import { Splide, SplideSlide } from '@splidejs/react-splide';
+import '@splidejs/splide/dist/css/splide.min.css';
 
 export default function Home() {
   return (
@@ -22,27 +25,45 @@ export default function Home() {
       <Widget/>
       <h1 className="main-header">GALACTIX</h1>
       <div className="flex flex-row display-container">
-      <DisplayCard 
-        title="About Us" 
-        imgSrc={solSuperstar.src}
-        btnTxt="Read More"
-        mainCard={false}
-        btnSrc="/about"
-      />
-      <DisplayCard 
-        title="NFT Collection" 
-        imgSrc={landingGif.src} 
-        btnTxt="Coming Soon" 
-        mainCard={true}
-        btnSrc=""
-      />
-      <DisplayCard 
-        title="Alpha Chat" 
-        imgSrc={upMemeGif.src}
-        btnTxt="View Alpha" 
-        mainCard={false}
-        btnSrc="/alpha"
-      />
+      <Splide options={{ 
+        perPage: 3,
+        rewind: true,
+        gap: '1rem',
+        breakpoints: {
+          768: {
+            perPage: 1,
+          },
+        },
+      }}>
+        <SplideSlide>
+            <DisplayCard 
+              title="About Us" 
+              imgSrc={solSuperstar.src}
+              btnTxt="Read More"
+              mainCard={false}
+              btnSrc="/about"
+            />
+
+        </SplideSlide>
+        <SplideSlide>
+          <DisplayCard 
+            title="NFT Collection" 
+            imgSrc={landingGif.src} 
+            btnTxt="Coming Soon" 
+            mainCard={true}
+            btnSrc=""
+          />
+        </SplideSlide>
+        <SplideSlide>
+            <DisplayCard 
+              title="Alpha Chat" 
+              imgSrc={upMemeGif.src}
+              btnTxt="View Alpha" 
+              mainCard={false}
+              btnSrc="/alpha"
+            />
+        </SplideSlide>
+      </Splide>
       </div>
     </main>
   );
