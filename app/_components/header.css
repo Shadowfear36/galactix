@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 0;
+    justify-content: space-between;
+    width: 100%;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+
+#logo {
+    margin: 0px;
+    width: 100px !important;
+    height: 100px;
+}

@@ -1,0 +1,9 @@
+.socials {
+    position: absolute;
+    left: 1.25%;
+    bottom: 2%;
+}
+
+.icon:hover{
+    transform: SCALE(1.25);
+}

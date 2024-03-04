@@ -1,0 +1,87 @@
+@font-face {
+    font-family: 'Protest'; /* Use a custom name to reference your font */
+    src: url('/public/ProtestRiot-Regular.ttf') format('truetype'); /* Path to your .ttf font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.cardContainer {
+    background-color: rgba(0, 0, 0, 0.733);
+    width: 70vw;
+    border-radius: 12px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleCard {
+    font-family: 'Protest', sans-serif;
+    font-size: 43px;
+    text-align: left;
+}
+
+p {
+    font-family: 'Protest', sans-serif;
+    width: 75%;
+    text-align: center;
+    font-size: 18px;
+}
+
+.cardBtn {
+    font-family: 'Protest', sans-serif;
+    border-radius: 12px;
+    background-color:#8572DA;
+    padding: 12px;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.cardImg {
+    width: 75%; /* Adjust width as needed */
+    height: 350px; /* Adjust height as needed */
+    object-fit: cover;
+    margin: 15px;
+    border-radius: 12px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .cardImg {
+        width: 75%; /* Adjust width as needed */
+        height: 200px; /* Adjust height as needed */
+        object-fit: cover;
+        margin: 15px;
+        border-radius: 12px;
+    }
+
+    .cardContainer {
+        background-color: rgba(0, 0, 0, 0.733);
+        width: 90vw;
+        border-radius: 12px;
+        padding: 5px;
+    }
+
+    p {
+        font-family: 'Protest', sans-serif;
+        width: 75%;
+        text-align: center;
+        font-size: 12px;
+    }
+
+    .cardBtn {
+        font-family: 'Protest', sans-serif;
+        border-radius: 12px;
+        background-color:#8572DA;
+        padding: 8px;
+        font-size: 16px;
+        margin-top: 10px;
+    }
+
+    .titleCard {
+        font-family: 'Protest', sans-serif;
+        font-size: 32px;
+        text-align: left;
+    }
+  }

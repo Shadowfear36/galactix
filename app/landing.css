@@ -7,7 +7,6 @@
 
 #logo {
     width: 300px;
-
 }
 
 #subtext {
@@ -20,4 +19,22 @@
      2px -2px 0 #000,
     -2px  2px 0 #000,
      2px  2px 0 #000;
+}
+
+.main-header {
+  font-family: 'Protest', sans-serif;
+  font-size: 65px;
+  margin: 0px;
+}
+
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .display-container {
+    display: flex;
+    flex-direction: column;
+    max-height: 80vh; /* or a specific pixel value */
+    overflow-y: auto; 
+    width: 100%;
+  }
 }

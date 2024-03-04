@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Protest'; /* Use a custom name to reference your font */
+    src: url('/public/ProtestRiot-Regular.ttf') format('truetype'); /* Path to your .ttf font file */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+.header-txt {
+    font-size: 52px;
+    font-family: 'Protest', sans-serif;
+    text-align: center;
+  }
+  
+  .header-txt2 {
+    font-size: 52px;
+    font-family: 'Protest', sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 40%;
+    top: 40%;
+    right: 40%;
+  }
+
+  .alpha-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  .alpha-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Mobile Styles */
+@media (max-width: 768px) {
+  .header-txt2 {
+    font-size: 32px;
+    font-family: 'Protest', sans-serif;
+    text-align: center;
+    position: absolute;
+    left: 30%;
+    top: 40%;
+    right: 30%;
+  }
+
+  .header-txt {
+    font-size: 38px;
+    font-family: 'Protest', sans-serif;
+    text-align: center;
+    margin-top: 75px;
+  }
+}
