@@ -18,7 +18,7 @@ const SingleCard: React.FC<SingleCardProps> = ({ title, imgSrc, btnTxt, text, bt
         <p>
             {text}
         </p>
-        <a href={btnSrc}>
+        <a href={btnSrc} target="_blank" rel="noopener noreferrer">
         <button className="cardBtn">{btnTxt}</button>
         </a>
     </div>
