@@ -52,7 +52,7 @@
 
     .card-container {
         width: 100%;
-        padding: 15px; /* Slightly reduce padding */
+        padding: 0px; /* Slightly reduce padding */
         margin: 5px; /* Reduce margin */
     }
 
