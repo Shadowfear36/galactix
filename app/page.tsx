@@ -43,6 +43,7 @@ export default function Home() {
             mainCard={true}
             btnSrc=""
           />
+        </SplideSlide>
         <SplideSlide>
             <DisplayCard 
               title="About Us" 
@@ -52,7 +53,6 @@ export default function Home() {
               btnSrc="/about"
             />
 
-        </SplideSlide>
         </SplideSlide>
         <SplideSlide>
             <DisplayCard 

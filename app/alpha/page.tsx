@@ -22,6 +22,7 @@ export default function Alpha() {
       <div className="alpha-container">
         <h3 className="header-txt2">COMING SOON <br/> ...</h3>
       </div>
+      
     </div>
   )
 }
