@@ -36,6 +36,14 @@ export default function Home() {
         },
       }}>
         <SplideSlide>
+          <DisplayCard 
+            title="NFT Collection" 
+            imgSrc={landingGif.src} 
+            btnTxt="Coming Soon" 
+            mainCard={true}
+            btnSrc=""
+          />
+        <SplideSlide>
             <DisplayCard 
               title="About Us" 
               imgSrc={solSuperstar.src}
@@ -45,14 +53,6 @@ export default function Home() {
             />
 
         </SplideSlide>
-        <SplideSlide>
-          <DisplayCard 
-            title="NFT Collection" 
-            imgSrc={landingGif.src} 
-            btnTxt="Coming Soon" 
-            mainCard={true}
-            btnSrc=""
-          />
         </SplideSlide>
         <SplideSlide>
             <DisplayCard 
