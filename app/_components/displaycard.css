@@ -46,7 +46,7 @@
 /* Mobile Styles */
 @media (max-width: 768px) {
     .cardImg, .cardImgMain {
-        width: 100%; /* Make images full width */
+        width: 75%; /* Make images full width */
         height: auto; /* Adjust height automatically */
     }
 

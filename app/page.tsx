@@ -30,7 +30,7 @@ export default function Home() {
       <Splide options={{ 
         perPage: 3,
         rewind: true,
-        gap: '1rem',
+        gap: '1.5rem',
         breakpoints: {
           768: {
             perPage: 1,
@@ -42,7 +42,7 @@ export default function Home() {
             title="NFT Collection" 
             imgSrc={landingGif.src} 
             btnTxt="Minting Soon" 
-            mainCard={true}
+            mainCard={false}
             btnSrc="https://magiceden.io/launchpad/galactix"
           />
         </SplideSlide>
