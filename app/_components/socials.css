@@ -2,6 +2,7 @@
     position: absolute;
     left: 1.25%;
     bottom: 2%;
+    z-index: 2
 }
 
 .icon:hover{

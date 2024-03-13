@@ -15,3 +15,12 @@
     width: 100px !important;
     height: 100px;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    #logo {
+        margin: 0px;
+        width: 75px !important;
+        height: 75px;
+    }
+}

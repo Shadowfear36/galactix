@@ -70,7 +70,7 @@ export default function Home() {
               title="Staking" 
               imgSrc={rocketImg.src}
               btnTxt="Coming Soon" 
-              mainCard={true}
+              mainCard={false}
               btnSrc="#"
             />
         </SplideSlide>

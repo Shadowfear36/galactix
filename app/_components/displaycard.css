@@ -53,7 +53,8 @@
     .card-container {
         width: 100%;
         padding: 0px; /* Slightly reduce padding */
-        margin: 5px; /* Reduce margin */
+        margin: 0px; /* Reduce margin */
+        margin-bottom: 100px;
     }
 
     .card-title {

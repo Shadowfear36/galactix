@@ -54,3 +54,22 @@ body {
   font-family: 'Protest', sans-serif;
   text-align: center;
 }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .btn-1 {
+    border: white 1px solid;
+    padding: 6px;
+    font-size: 1rem;
+    border-radius: 12px;
+    font-weight: 800;
+    height: 50%;
+    margin-top: 15px;
+  }
+
+  .header-txt {
+    font-size: 22px;
+    font-family: 'Protest', sans-serif;
+    text-align: center;
+  }
+}

@@ -36,4 +36,9 @@
 
     /* width: 100%; */
   }
+  .main-header {
+    font-family: 'Protest', sans-serif;
+    font-size: 55px;
+    margin: 0px;
+  }
 }
