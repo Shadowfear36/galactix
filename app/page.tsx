@@ -5,8 +5,10 @@ import './landing.css';
 import Socials from './_components/socials';
 import DisplayCard from './_components/displaycard';
 import landingGif from '../public/landing.gif';
-import upMemeGif from '../public/upMeme.gif';
-import solSuperstar from '../public/sol_superstars.png';
+import alphaImg from '../public/alpha.png';
+import labImg from '../public/lab.png';
+import StakeImg from '../public/starship.png'
+import rocketImg from '../public/Shipper_.png'
 import Widget from './_components/widget';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
@@ -36,9 +38,18 @@ export default function Home() {
         },
       }}>
         <SplideSlide>
+          <DisplayCard 
+            title="NFT Collection" 
+            imgSrc={landingGif.src} 
+            btnTxt="Minting Soon" 
+            mainCard={true}
+            btnSrc="https://magiceden.io/launchpad/galactix"
+          />
+        </SplideSlide>
+        <SplideSlide>
             <DisplayCard 
               title="About Us" 
-              imgSrc={solSuperstar.src}
+              imgSrc={StakeImg.src}
               btnTxt="Read More"
               mainCard={false}
               btnSrc="/about"
@@ -46,21 +57,30 @@ export default function Home() {
 
         </SplideSlide>
         <SplideSlide>
-          <DisplayCard 
-            title="NFT Collection" 
-            imgSrc={landingGif.src} 
-            btnTxt="Coming Soon" 
-            mainCard={true}
-            btnSrc=""
-          />
-        </SplideSlide>
-        <SplideSlide>
             <DisplayCard 
               title="Alpha Chat" 
-              imgSrc={upMemeGif.src}
+              imgSrc={alphaImg.src}
               btnTxt="View Alpha" 
               mainCard={false}
               btnSrc="/alpha"
+            />
+        </SplideSlide>
+        <SplideSlide>
+            <DisplayCard 
+              title="Staking" 
+              imgSrc={rocketImg.src}
+              btnTxt="Coming Soon" 
+              mainCard={true}
+              btnSrc="#"
+            />
+        </SplideSlide>
+        <SplideSlide>
+            <DisplayCard 
+              title="Raffles" 
+              imgSrc={labImg.src}
+              btnTxt="Coming Soon" 
+              mainCard={true}
+              btnSrc="#"
             />
         </SplideSlide>
       </Splide>

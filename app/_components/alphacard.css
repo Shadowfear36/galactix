@@ -1,0 +1,82 @@
+.alpha-card {
+    padding: 25px;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: top;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.733);
+    border-radius: 12px;
+    font-family: 'Protest', sans-serif;
+    height: 100%;
+}
+
+.title {
+    font-size: 32px;
+    font-family: 'Protest', sans-serif;
+}
+
+.mint {
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 12px;
+}
+
+.right {
+    text-align: center;
+    padding: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+}
+.btn {
+    border-radius: 12px;
+    font-size: 22px;
+    background-color: mediumturquoise;
+    padding: 10px;
+}
+
+.brief {
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+  /* Mobile Styles */
+  @media (max-width: 768px) {
+    .alpha-card {
+        display: flex;
+        flex-direction: column;
+        justify-self: center;
+        align-items: center;
+    }
+    
+    .image {
+        width: 200px;
+        height: 200px;
+    }
+    .brief {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .btn {
+        border-radius: 12px;
+        font-size: 18px;
+        background-color: mediumturquoise;
+        padding: 10px;
+    }
+    .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+  }
