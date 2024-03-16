@@ -41,9 +41,9 @@ export default function Home() {
           <DisplayCard 
             title="NFT Collection" 
             imgSrc={landingGif.src} 
-            btnTxt="Minting Soon" 
+            btnTxt="Buy NFT's" 
             mainCard={false}
-            btnSrc="https://magiceden.io/launchpad/galactix"
+            btnSrc="https://magiceden.io/marketplace/galactix"
           />
         </SplideSlide>
         <SplideSlide>
@@ -69,9 +69,9 @@ export default function Home() {
             <DisplayCard 
               title="Staking" 
               imgSrc={rocketImg.src}
-              btnTxt="Coming Soon" 
+              btnTxt="Stake Your NFT" 
               mainCard={false}
-              btnSrc="#"
+              btnSrc="https://galactix.sololabs.io/"
             />
         </SplideSlide>
         <SplideSlide>
