@@ -4,11 +4,11 @@ import Header from './_components/header';
 import './landing.css';
 import Socials from './_components/socials';
 import DisplayCard from './_components/displaycard';
-import landingGif from '../public/landing.gif';
+import landingGif from '../public/emmy.png';
 import alphaImg from '../public/alpha.png';
 import labImg from '../public/lab.png';
 import StakeImg from '../public/starship.png'
-import rocketImg from '../public/Shipper_.png'
+import rocketImg from '../public/STEAK.png';
 import Widget from './_components/widget';
 import { Splide, SplideSlide } from '@splidejs/react-splide';
 import '@splidejs/splide/dist/css/splide.min.css';
@@ -58,15 +58,6 @@ export default function Home() {
         </SplideSlide>
         <SplideSlide>
             <DisplayCard 
-              title="Alpha Chat" 
-              imgSrc={alphaImg.src}
-              btnTxt="View Alpha" 
-              mainCard={false}
-              btnSrc="/alpha"
-            />
-        </SplideSlide>
-        <SplideSlide>
-            <DisplayCard 
               title="Staking" 
               imgSrc={rocketImg.src}
               btnTxt="Stake Your NFT" 
@@ -78,9 +69,18 @@ export default function Home() {
             <DisplayCard 
               title="Raffles" 
               imgSrc={labImg.src}
-              btnTxt="Coming Soon" 
+              btnTxt="View Raffles" 
               mainCard={true}
-              btnSrc="#"
+              btnSrc="https://artraffle.io/raffle/65f76e9e9dc97b3bd145c6a8"
+            />
+        </SplideSlide>
+        <SplideSlide>
+            <DisplayCard 
+              title="Alpha Chat" 
+              imgSrc={alphaImg.src}
+              btnTxt="View Alpha" 
+              mainCard={false}
+              btnSrc="/alpha"
             />
         </SplideSlide>
       </Splide>
