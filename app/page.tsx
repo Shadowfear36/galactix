@@ -56,7 +56,7 @@ export default function Home() {
             />
 
         </SplideSlide>
-        <SplideSlide>
+        {/* <SplideSlide>
             <DisplayCard 
               title="Staking" 
               imgSrc={rocketImg.src}
@@ -64,7 +64,7 @@ export default function Home() {
               mainCard={false}
               btnSrc="https://galactix.sololabs.io/"
             />
-        </SplideSlide>
+        </SplideSlide> */}
         <SplideSlide>
             <DisplayCard 
               title="Raffles" 
