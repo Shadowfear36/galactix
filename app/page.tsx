@@ -6,7 +6,7 @@ import Socials from './_components/socials';
 import DisplayCard from './_components/displaycard';
 import landingGif from '../public/emmy.png';
 import alphaImg from '../public/alpha.png';
-import labImg from '../public/lab.png';
+import labImg from '../public/final_probe.png';
 import StakeImg from '../public/starship.png'
 import rocketImg from '../public/STEAK.png';
 import Widget from './_components/widget';
@@ -37,6 +37,7 @@ export default function Home() {
           },
         },
       }}>
+
         <SplideSlide>
           <DisplayCard 
             title="NFT Collection" 
@@ -44,7 +45,18 @@ export default function Home() {
             btnTxt="Buy NFT's" 
             mainCard={false}
             btnSrc="https://magiceden.io/marketplace/galactix"
+            hash={false}
           />
+        </SplideSlide>
+        <SplideSlide>
+            <DisplayCard 
+              title="$PROBE Token" 
+              imgSrc={labImg.src}
+              btnTxt="Buy $PROBE" 
+              mainCard={false}
+              btnSrc="https://jup.ag/swap/SOL-CaWwcM1TWKLutcyJmd9HekWvAZRbeJbnrcVKF4dJehjg"
+              hash={true}
+            />
         </SplideSlide>
         <SplideSlide>
             <DisplayCard 
@@ -53,6 +65,7 @@ export default function Home() {
               btnTxt="Read More"
               mainCard={false}
               btnSrc="/about"
+              hash={false}
             />
 
         </SplideSlide>
@@ -67,20 +80,12 @@ export default function Home() {
         </SplideSlide> */}
         <SplideSlide>
             <DisplayCard 
-              title="Raffles" 
-              imgSrc={labImg.src}
-              btnTxt="View Raffles" 
-              mainCard={true}
-              btnSrc="https://artraffle.io/raffle/65f76e9e9dc97b3bd145c6a8"
-            />
-        </SplideSlide>
-        <SplideSlide>
-            <DisplayCard 
               title="Alpha Chat" 
               imgSrc={alphaImg.src}
               btnTxt="View Alpha" 
               mainCard={false}
               btnSrc="/alpha"
+              hash={false}
             />
         </SplideSlide>
       </Splide>
