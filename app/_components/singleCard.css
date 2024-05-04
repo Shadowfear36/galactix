@@ -7,7 +7,6 @@
 
 .cardContainer {
     background-color: rgba(0, 0, 0, 0.733);
-    width: 70vw;
     border-radius: 12px;
     padding: 20px;
     display: flex;
@@ -49,8 +48,8 @@ p {
 /* Mobile Styles */
 @media (max-width: 768px) {
     .cardImg {
-        width: 75%; /* Adjust width as needed */
-        height: 200px; /* Adjust height as needed */
+        width: 100%; /* Adjust width as needed */
+        height: 150px; /* Adjust height as needed */
         object-fit: cover;
         margin: 15px;
         border-radius: 12px;
@@ -58,7 +57,7 @@ p {
 
     .cardContainer {
         background-color: rgba(0, 0, 0, 0.733);
-        width: 90vw;
+        width: 80vw;
         border-radius: 12px;
         padding: 5px;
     }

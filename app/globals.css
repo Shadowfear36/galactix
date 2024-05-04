@@ -26,6 +26,7 @@ body {
   color: white;
   font-family: 'Protest', sans-serif;
   overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 .btn-1 {
