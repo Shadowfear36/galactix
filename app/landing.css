@@ -9,6 +9,11 @@
     width: 300px;
 }
 
+.splide {
+  justify-content: center;
+  display: flex;
+}
+
 #subtext {
     font-size: 32px;
     color: white;

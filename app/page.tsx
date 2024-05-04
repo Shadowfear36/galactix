@@ -15,7 +15,7 @@ import '@splidejs/splide/dist/css/splide.min.css';
 
 export default function Home() {
   return (
-    <main className="flex h-full w-full pt-20 flex-col items-center justify-center">
+    <main className="flex h-full w-full pt-20 flex-col items-center justify-center align-center">
       <Starfield
         starCount={5000}
         starColor={[255, 255, 255]}
@@ -26,7 +26,7 @@ export default function Home() {
       <Socials/>
       <Widget/>
       <h1 className="main-header">GALACTIX</h1>
-      <div className="flex flex-row w-full h-full display-container">
+      <div className="flex flex-row w-full h-full display-container justify-center">
       <Splide options={{ 
         perPage: 3,
         rewind: true,
